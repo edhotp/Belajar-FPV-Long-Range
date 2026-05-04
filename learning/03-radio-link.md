@@ -19,7 +19,7 @@ sequenceDiagram
     participant RX as Receiver
     participant FC as Flight Controller
     
-    loop tiap 4ms (250Hz) atau 20ms (50Hz)
+    loop tiap 4ms 250Hz atau 20ms 50Hz
         TX->>RX: Control packet (stick, switch)
         RX->>FC: CRSF / SBUS data
         FC->>RX: Telemetry (GPS, voltage, RSSI)
@@ -221,7 +221,7 @@ EdgeTX bisa baca voice "RSSI critical", "Low battery". **Wajib aktifkan untuk LR
 
 ```mermaid
 flowchart TD
-    A[Update firmware<br/>ELRS Configurator] --> B[Set Bind Phrase<br/>sama di TX & RX]
+    A["Update firmware<br/>ELRS Configurator"] --> B["Set Bind Phrase<br/>sama di TX & RX"]
     B --> C[Power on TX]
     C --> D[Power on RX]
     D --> E[Auto-bind via Bind Phrase]
@@ -247,10 +247,10 @@ ELRS pakai **bind phrase** (string text) yang di-hash jadi UID. Set **sama** di 
 
 ```mermaid
 flowchart LR
-    A[Bench test<br/>RSSI lihat di OSD] --> B[Walk test 200-500m<br/>LOS, drone ditangan asisten]
-    B --> C[Naikkan TX power kalau LQ drop<br/>< 70%]
-    C --> D[Catat baseline RSSI/LQ<br/>vs jarak]
-    D --> E[Misi 1km, 2km, 5km bertahap]
+    A["Bench test<br/>RSSI lihat di OSD"] --> B["Walk test 200-500m<br/>LOS, drone ditangan asisten"]
+    B --> C["Naikkan TX power kalau LQ drop<br/>di bawah 70%"]
+    C --> D["Catat baseline RSSI/LQ<br/>vs jarak"]
+    D --> E["Misi 1km, 2km, 5km bertahap"]
 ```
 
 > **Jangan langsung 10 km!** Naikkan jangkauan **bertahap** dan catat data tiap penerbangan.

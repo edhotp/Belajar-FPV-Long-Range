@@ -131,8 +131,8 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    R1[1. Plan untuk failure mode] --> R2[2. Conservative > Aggressive]
-    R2 --> R3[3. Pulang selamat > Selesaikan misi]
+    R1["1. Plan untuk failure mode"] --> R2["2. Conservative > Aggressive"]
+    R2 --> R3["3. Pulang selamat > Selesaikan misi"]
 ```
 
 ---

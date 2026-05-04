@@ -304,7 +304,7 @@ Contoh: angka **`5`** di pojok = biner `0000 0101` = **bit 0 + bit 2** → "RX c
 
 ```mermaid
 flowchart LR
-    Lua[Lua Pojok Kanan] -->|"-" atau "C"| OK[Normal]
+    Lua[Lua Pojok Kanan] -->|tanda minus atau C| OK[Normal]
     Lua -->|angka muncul| Decode[Convert ke biner]
     Decode --> Bit[Lihat bit yang ON]
     Bit --> Fix[Perbaiki sesuai tabel]

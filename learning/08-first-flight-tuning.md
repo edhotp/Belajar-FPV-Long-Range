@@ -80,10 +80,10 @@ flowchart LR
 ```mermaid
 flowchart LR
     Stick[Pilot Stick] --> Setpoint[Setpoint angular rate]
-    Gyro[Gyro reading] --> Error[Error = Setpoint - Actual]
-    Error --> P[P: respons proporsional]
-    Error --> I[I: hilangkan steady-state error]
-    Error --> D[D: redam overshoot]
+    Gyro[Gyro reading] --> Error["Error = Setpoint - Actual"]
+    Error --> P["P: respons proporsional"]
+    Error --> I["I: hilangkan steady-state error"]
+    Error --> D["D: redam overshoot"]
     P & I & D --> Mix[Sum + Mixer]
     Mix --> ESC[ESC]
     ESC --> Motor
@@ -166,12 +166,12 @@ flowchart TD
     A --> B[Cek visual lokasi crash via goggles last frame]
     B --> C[Walk ke lokasi]
     C --> D{Cek kerusakan}
-    D --> P[Prop pecah → ganti]
-    D --> M[Motor panas → cek ESC]
-    D --> F[Frame retak → ganti]
-    D --> B2[Battery puffed → buang aman]
-    D --> C2[Camera retak → ganti]
-    D --> Soft[Soft crash → cek baut]
+    D --> P["Prop pecah → ganti"]
+    D --> M["Motor panas → cek ESC"]
+    D --> F["Frame retak → ganti"]
+    D --> B2["Battery puffed → buang aman"]
+    D --> C2["Camera retak → ganti"]
+    D --> Soft["Soft crash → cek baut"]
 ```
 
 ### Kalau drone hilang

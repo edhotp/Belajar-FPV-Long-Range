@@ -122,8 +122,8 @@ Standar industri saat ini untuk LR:
 
 ```mermaid
 flowchart TB
-    A[Packet Rate Tinggi<br/>500Hz] -->|Latency rendah, range pendek| C[Pilihan]
-    B[Packet Rate Rendah<br/>50Hz / 25Hz / 100Hz Full] -->|Sensitivitas tinggi, range jauh| C
+    A[Packet Rate Tinggi<br/>500Hz] -->|"Latency rendah, range pendek"| C[Pilihan]
+    B["Packet Rate Rendah<br/>50Hz / 25Hz / 100Hz Full"] -->|"Sensitivitas tinggi, range jauh"| C
     C --> D{Use Case}
     D -->|Racing/Freestyle| A
     D -->|Long Range| B
