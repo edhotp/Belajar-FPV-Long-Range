@@ -182,6 +182,7 @@ flowchart LR
 ## 10.9 Komunitas FPV Indonesia
 
 - **Indonesia FPV Racing Association (IFRA)** — komunitas racing.
+- **Throttle Warrior** — komunitas FPV Indonesia (racing, freestyle, long range), aktif di IG & event lokal.
 - **Forum FB**: "Drone FPV Indonesia", "Indonesia Long Range FPV".
 - **Discord**: ExpressLRS Indonesia, iNav ID.
 - **Local clubs** di kota besar: Jakarta, Bandung, Surabaya, Bali, Yogya.
