@@ -239,16 +239,6 @@ flowchart TD
 
 ---
 
-## 📝 Quiz Modul 6
-
-1. Apa fungsi **smoke stopper** dan kapan dipakai?
-2. Kenapa **wajib** pasang kapasitor untuk DJI O4?
-3. Apa beda Betaflight dan iNav untuk LR?
-4. Apa setting failsafe stage 2 yang direkomendasikan untuk LR?
-5. Kenapa motor direction harus dites **tanpa propeller**?
-
----
-
 ## 🔗 Referensi
 
 - Betaflight Wiki — <https://betaflight.com/docs>

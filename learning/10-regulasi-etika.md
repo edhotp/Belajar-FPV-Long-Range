@@ -218,16 +218,6 @@ Harga di seri ini ditulis dalam **USD** (referensi global). Realitas Indonesia:
 
 ---
 
-## 📝 Quiz Modul 10
-
-1. Apa nama sistem registrasi drone di Indonesia?
-2. Berapa **maks ketinggian** drone di luar KKOP?
-3. Frekuensi mana yang **butuh izin** di Indonesia untuk FPV LR?
-4. Di USA, apa yang **wajib ada** saat pilot FPV terbang?
-5. Apa yang harus dilakukan saat **otoritas mendatangi** kamu di lapangan?
-
----
-
 ## 🎓 Selesai!
 
 Selamat! Kamu sudah menyelesaikan **FPV Long Range Learning Series**.

@@ -223,16 +223,6 @@ Ketika drone failsafe / disarmed di posisi unknown, beeper akan bunyi:
 
 ---
 
-## 📝 Quiz Modul 7
-
-1. Apa beda **Failsafe Stage 1** dan **Stage 2**?
-2. Apa itu `gps_rescue_initial_climb` dan kenapa penting?
-3. Berapa **minimum GPS satellite** sebelum GPS Rescue bisa aktif?
-4. Apa yang terjadi kalau drone arm tanpa magnetometer terkalibrasi (di iNav)?
-5. Sebutkan 3 tips reliability hardware untuk LR.
-
----
-
 ## 🔗 Referensi
 
 - Betaflight GPS Rescue Docs — <https://betaflight.com/docs/wiki/configurator/failsafe-tab>

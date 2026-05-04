@@ -275,16 +275,6 @@ flowchart LR
 
 ---
 
-## 📝 Quiz Modul 2
-
-1. Apa arti `2806.5 1300KV` pada motor?
-2. Frame geometri apa yang paling cocok untuk LR pemula?
-3. Berapa minimum jumlah UART di FC untuk LR (dengan RX, GPS, VTX, ESC telemetry)?
-4. Kenapa Li-Ion lebih cocok untuk LR daripada LiPo?
-5. Apa yang terjadi kalau polarisasi antena VTX dan VRX tidak sama?
-
----
-
 ## 🔗 Referensi
 
 - Oscar Liang — *FPV Drone Components* — <https://oscarliang.com/fpv-drone-parts/>

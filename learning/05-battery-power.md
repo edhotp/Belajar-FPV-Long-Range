@@ -254,16 +254,6 @@ flowchart LR
 
 ---
 
-## 📝 Quiz Modul 5
-
-1. Hitung Wh dari pack 6S2P Molicel P42A (4200 mAh).
-2. Apa max charge rate (Ampere) untuk Li-Ion 6S2P P42A?
-3. Kenapa Li-Ion **tidak cocok** untuk racing tapi **sangat cocok** untuk LR?
-4. Berapa **min cell voltage** Li-Ion sebelum harus RTH?
-5. Kenapa kapasitor wajib dipasang di build 6S?
-
----
-
 ## 🔗 Referensi
 
 - Molicel datasheet — <https://www.molicel.com/product/>

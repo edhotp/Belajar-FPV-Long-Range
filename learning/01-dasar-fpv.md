@@ -161,15 +161,6 @@ flowchart LR
 
 ---
 
-## 📝 Quiz Modul 1
-
-1. Sebutkan **3 pilar** drone FPV Long Range.
-2. Apa beda **control link** dengan **video link**?
-3. Kenapa pemula disarankan main **simulator** dulu sebelum beli drone?
-4. Kategori drone FPV mana yang **paling cocok** untuk pilot pemula yang ingin belajar LR? (Hint: bukan langsung 7"!)
-
----
-
 ## 🔗 Referensi & Bacaan Lanjut
 
 - Oscar Liang — *What is FPV?* — <https://oscarliang.com/fpv-drone-guide/>

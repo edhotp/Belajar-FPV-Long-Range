@@ -258,16 +258,6 @@ OSD menampilkan info di atas video:
 
 ---
 
-## 📝 Quiz Modul 4
-
-1. Apa beda DJI **O4 Air Unit Pro** dengan **O4 Air Unit Lite**?
-2. Sistem video apa yang punya **graceful degradation** terbaik?
-3. Apa kelebihan **Walksnail Moonlight** dibanding Avatar HD Pro biasa?
-4. Apa risiko menyatukan dua antena dengan polarisasi sama di lokasi yang sama?
-5. Sebutkan 5 info OSD wajib untuk LR.
-
----
-
 ## 🔗 Referensi
 
 - DJI O4 Air Unit Pro/Lite — <https://www.dji.com/o4-air-unit-pro>

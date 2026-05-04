@@ -366,18 +366,6 @@ flowchart TD
 
 ---
 
-## 📝 Quiz Modul 11
-
-1. Apa beda **RSSI** dan **LQ**? Mana yang lebih penting?
-2. Berapa **sensitivity limit** untuk 50 Hz @ 2.4 GHz?
-3. Apa singkatan **DVDA** dan apa fungsinya?
-4. Kalau Lua menampilkan angka **`5`** di pojok kanan atas, artinya apa?
-5. Kenapa pemula disarankan biarkan **Telem Ratio = Std**?
-6. Versi ELRS berapa yang **otomatis menyimpan Init Rate**?
-7. Kalau kamu mau cek mode RF aktif di OSD, lihat **field** apa?
-
----
-
 ## 🔗 Referensi (sumber resmi)
 
 - **Glossary** — <https://www.expresslrs.org/info/glossary/>

@@ -257,16 +257,6 @@ flowchart LR
 
 ---
 
-## 📝 Quiz Modul 3
-
-1. Apa beda packet rate **500 Hz** vs **50 Hz** untuk LR?
-2. Jelaskan apa itu **ELRS Gemini** dan apa kelebihannya.
-3. Apa beda **Dual Band RX** vs **Gemini RX**?
-4. Berapa **LQ minimum** yang aman untuk terbang?
-5. Kenapa antena RX harus dipasang **90° satu sama lain**?
-
----
-
 ## 🔗 Referensi
 
 - ExpressLRS Official Docs — <https://www.expresslrs.org/>

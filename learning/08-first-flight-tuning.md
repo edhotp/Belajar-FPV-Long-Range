@@ -216,16 +216,6 @@ flowchart LR
 
 ---
 
-## 📝 Quiz Modul 8
-
-1. Mode terbang apa yang **paling cocok** untuk maiden flight pemula?
-2. Apa yang **lebih penting** dituning duluan: PID atau Filter?
-3. Apa fungsi **RPM Filter** dan apa prasyaratnya?
-4. Apa "**aturan 50%**" untuk terbang LR?
-5. Kalau drone crash, apa langkah pertama setelah disarm?
-
----
-
 ## 🔗 Referensi
 
 - Betaflight Tuning Guide — <https://betaflight.com/docs/wiki/tuning>

@@ -228,16 +228,6 @@ flowchart LR
 
 ---
 
-## 📝 Quiz Modul 9
-
-1. Berapa **persen battery** yang sebaiknya dialokasikan untuk perjalanan pulang?
-2. Kenapa harus terbang **melawan angin dulu**?
-3. Sebutkan 3 tugas **observer** dalam misi LR.
-4. Apa fungsi **antenna tracker** dan kapan worth-it dipakai?
-5. Apa yang harus dilakukan kalau **GPS sat tiba-tiba drop dari 12 ke 4** saat di tengah misi?
-
----
-
 ## 🔗 Referensi
 
 - Chris Rosser — *Long Range Mission Planning* (YouTube).
