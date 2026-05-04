@@ -31,7 +31,8 @@ flowchart TD
     M8 --> M9[Modul 9<br/>Pre-Mission Shakedown]
     M9 --> M10[Modul 10<br/>Misi Long Range]
     M10 --> M11[Modul 11<br/>Regulasi & Etika Terbang]
-    M3 -.opsional lanjutan.-> M12[Modul 12<br/>ELRS Deep Dive]
+    M11 -.lanjutan opsional.-> M12[Modul 12<br/>ELRS Deep Dive]
+    M3 -.shortcut.-> M12
 
     classDef basic fill:#e1f5ff,stroke:#0288d1
     classDef build fill:#fff3e0,stroke:#f57c00
