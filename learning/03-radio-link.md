@@ -125,6 +125,10 @@ flowchart LR
 - Hardware lebih mahal (perlu radio & RX yang support).
 - Tetap di band 2.4 GHz, tidak tambah penetrasi.
 
+### Hardware Gemini populer
+- **Radio TX:** RadioMaster Boxer / Pocket / TX16S (internal ELRS 2.4 GHz mendukung Gemini sejak firmware 3.x).
+- **RX:** **RadioMaster RP4TD** (true-diversity 2.4 GHz, dirancang khusus untuk Gemini), BetaFPV ExpressLRS Diversity Nano RX.
+
 ---
 
 ## 3.5 ELRS Dual Band (2024+)
@@ -140,8 +144,10 @@ flowchart LR
 ```
 
 ### Hardware populer
-- **Radio TX:** RadioMaster Bandit Dual Band, BetaFPV LiteRadio 4 Pro.
-- **RX:** BetaFPV SuperD, RadioMaster RP4TD, Happymodel ES24TX Pro Dual.
+- **Radio TX:** RadioMaster Pocket / Boxer / TX16S **dengan dua modul** (mis. internal 2.4 GHz + external 900 MHz Bandit Micro / Happymodel ES900TX), atau radio yang **siap 900 MHz** seperti RadioMaster Bandit Micro (TX module standalone).
+- **RX dual-band 2.4 + 900 (true dual band):** **BetaFPV SuperD** (paling populer per 2026) — satu RX yang dengar 2.4 + 900 simultan.
+
+> 💡 **Catatan klarifikasi:** sampai 2026, RX yang benar-benar **dual band 2.4 + 900 simultan dalam satu modul** masih sangat sedikit — BetaFPV SuperD adalah yang paling matang. RX seperti **RadioMaster RP4TD** itu **2.4 GHz Gemini true-diversity** (dua radio 2.4 GHz dalam satu modul, untuk fitur Gemini), **bukan dual band 2.4+900**. Modul TX seperti **Happymodel ES24TX** adalah **transmitter** (TX), bukan RX. Pastikan kamu beli sesuai fungsi.
 
 ### Kapan pakai?
 - Terbang LR di area campur urban + alam (gedung lalu hutan).

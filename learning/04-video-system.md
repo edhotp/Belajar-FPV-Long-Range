@@ -172,25 +172,26 @@ flowchart TD
     G --> Analog[Analog]
     G --> Hybrid[Analog + Module Bay]
     
-    Digital --> DJI3[DJI Goggles 3<br/>$500]
-    Digital --> DJIN3[DJI Goggles N3<br/>$300, single panel]
+    Digital --> DJI3[DJI Goggles 3<br/>$500, dual micro-OLED]
+    Digital --> DJIN3[DJI Goggles N3<br/>~$230, single LCD<br/>O4-only]
     Digital --> WSX[Walksnail Avatar Goggles X<br/>$400]
+    Digital --> WSL[Walksnail Avatar Goggles L<br/>~$300, single panel]
     Digital --> HDZG[HDZero Goggles<br/>$500]
+    Digital --> FatHDO3[Fatshark Dominator HDO3<br/>$500, OLED 1080p<br/>Walksnail-compatible]
     
-    Analog --> Fat[Fatshark Dominator HDO3<br/>$500 OLED premium]
     Analog --> Orqa[Orqa FPV.One<br/>$400-700]
+    Analog --> Skyz04X[Skyzone 04X<br/>analog OLED]
     
-    Hybrid --> Skyzone[Skyzone Cobra X V4<br/>$300, bay untuk HDZ/Walksnail]
-    Hybrid --> Eachine[Eachine EV200D<br/>$200 entry level]
+    Hybrid --> Skyzone[Skyzone Cobra X<br/>~$300, bay untuk HDZ/Walksnail]
 ```
 
 ### Rekomendasi pemula
-- **Budget tipis + HD:** DJI Goggles N3 (single panel tapi tetap immersive).
-- **All-in untuk LR HD:** DJI Goggles 3.
-- **Hybrid (mau analog + HD module):** Skyzone Cobra X V4.
-- **Analog purist:** Skyzone 04X atau Orqa FPV.One.
+- **Budget tipis + HD:** DJI Goggles N3 (~$230, single panel LCD; hanya kompatibel dengan DJI O4 Air Unit / Avata 2 / Neo).
+- **All-in untuk LR HD:** DJI Goggles 3 (dual micro-OLED 100Hz, kompat O3 & O4).
+- **Hybrid (mau analog + HD module):** Skyzone Cobra X.
+- **Analog purist:** Orqa FPV.One atau Skyzone 04X.
 
-> ⚠️ **Disclaimer rekomendasi:** pilihan goggles di atas adalah opini berdasarkan kebiasaan komunitas & review publik per **2026**, **bukan endorsement berbayar**. Kenyamanan goggles **sangat personal** (IPD, jarak mata, bentuk wajah) — kalau memungkinkan, **coba langsung** atau pinjam dulu sebelum beli. Pastikan juga goggles cocok dengan ekosistem VTX yang kamu pakai (DJI O3/O4, Walksnail, HDZero, analog).
+> ⚠️ **Disclaimer rekomendasi:** pilihan goggles di atas adalah opini berdasarkan kebiasaan komunitas & review publik per **2026**, **bukan endorsement berbayar**. Harga adalah perkiraan retail global (USD) yang bisa bervariasi per region & toko. Kenyamanan goggles **sangat personal** (IPD, jarak mata, bentuk wajah) — kalau memungkinkan, **coba langsung** atau pinjam dulu sebelum beli. Pastikan juga goggles cocok dengan ekosistem VTX yang kamu pakai (DJI O3/O4, Walksnail, HDZero, analog). DJI Goggles N3 **tidak kompatibel dengan O3 Air Unit lama** — hanya O4 / Avata 2 / Neo.
 
 ---
 
