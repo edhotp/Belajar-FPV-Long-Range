@@ -1,6 +1,6 @@
 # 🚁 FPV Long Range Mastery
 
-### *Dari Nol ke 20+ Kilometer dengan Aman — Panduan Lengkap Bahasa Indonesia*
+### 
 
 > **Build → Tune → Fly.** 11 modul terstruktur + cheat sheet lapangan, berbasis teknologi FPV terkini (**ExpressLRS 4.x, DJI O4 Air Unit Pro, Walksnail Avatar HD, Li-Ion 6S2P P42A**) dan regulasi penerbangan Indonesia (**SDPPI, PM 37/2020, SIDOPI-Go**).
 
