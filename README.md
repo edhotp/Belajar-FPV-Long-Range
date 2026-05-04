@@ -38,7 +38,7 @@
 
 | Resource | Deskripsi | Cocok untuk |
 |---|---|---|
-| 🗺️ **[Index Learning Series](learning/00-index.md)** | Peta belajar 11 modul + cheat sheet | Pertama kali masuk |
+| 🗺️ **[Index Learning Series](learning/00-index.md)** | Peta belajar 12 modul + cheat sheet | Pertama kali masuk |
 | ⭐ **[Cheat Sheet Lapangan](learning/CHEAT-SHEET.md)** | Quick reference jarak max, baterai, sinyal, safety | Saat di field / pre-flight |
 | 📘 **[Overview Teknis](OVERVIEW.md)** | Reference komprehensif komponen & arsitektur | Riset komponen / belanja |
 
@@ -49,10 +49,10 @@
 ```mermaid
 flowchart LR
     Start([Mulai di Sini]) --> M1[Modul 1-5<br/>📚 Foundation<br/>komponen, radio, video, battery]
-    M1 --> M2[Modul 6-7<br/>🛠️ Build & Setup<br/>solder, BF/iNav, failsafe]
-    M2 --> M3[Modul 8-9<br/>🚁 Fly<br/>tuning, misi LR]
-    M3 --> M4[Modul 11<br/>⚖️ Regulasi<br/>SDPPI & etika]
-    M4 --> Bonus[Modul 12<br/>🎯 ELRS Deep Dive<br/>opsional lanjutan]
+    M1 --> M2["Modul 6-7<br/>🛠️ Build & Setup<br/>solder, BF/iNav, failsafe"]
+    M2 --> M3["Modul 8-10<br/>🚁 Fly<br/>tuning, shakedown, misi LR"]
+    M3 --> M4["Modul 11<br/>⚖️ Regulasi<br/>SDPPI & etika"]
+    M4 --> Bonus["Modul 12<br/>🎯 ELRS Deep Dive<br/>opsional lanjutan"]
     Bonus --> CS[⭐ Cheat Sheet<br/>field reference]
 
     classDef start fill:#1976d2,color:#fff,stroke:#0d47a1

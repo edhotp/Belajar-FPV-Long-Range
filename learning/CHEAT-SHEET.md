@@ -94,7 +94,7 @@ flowchart TD
     Const --> C1[Cruise 50-75 km/h, hindari accel-decel]
     Light --> L1[Frame ringan, kabel pendek, hindari aksesori berat]
     Prop --> P1[HQ 7x4x3 V1S, Gemfan 7035 - efisien]
-    KV --> K1[6S × 1300-1500 KV untuk 7"]
+    KV --> K1["6S × 1300-1500 KV untuk 7 inch"]
 ```
 
 ### Battery Best Practice

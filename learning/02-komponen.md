@@ -166,10 +166,10 @@ Modul kecil yang menerima sinyal dari radio TX dan kirim ke FC.
 
 ```mermaid
 flowchart LR
-    TX[Radio TX] -. RF 2.4GHz .-> RXmod[ELRS RX<br/>di drone]
+    TX[Radio TX] -. "RF 2.4GHz" .-> RXmod["ELRS RX<br/>di drone"]
     RXmod -- CRSF / SBUS --> FC[Flight Controller]
     FC -- Telemetry kembali --> RXmod
-    RXmod -. balik ke TX .-> TX
+    RXmod -. "balik ke TX" .-> TX
 ```
 
 **Bahas detail di Modul 3.** Untuk sekarang ingat: pakai **ExpressLRS (ELRS)** atau **TBS Crossfire/Tracer**.
