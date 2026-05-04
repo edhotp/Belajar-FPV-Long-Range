@@ -2,6 +2,8 @@
 
 > Seri belajar **FPV Long Range (LR)** dari nol sampai bisa terbang misi jauh dengan aman. Disusun untuk pemula, ditulis dalam Bahasa Indonesia yang mudah dipahami, dengan diagram Mermaid untuk memperjelas konsep.
 
+**Dibuat oleh [@skyfluxfpv](https://www.instagram.com/skyfluxfpv/)** — ikuti di [Instagram](https://www.instagram.com/skyfluxfpv/) & [TikTok](https://www.tiktok.com/@skyfluxfpv) untuk konten FPV terbaru.
+
 ---
 
 ## 🧭 Untuk Siapa Seri Ini?

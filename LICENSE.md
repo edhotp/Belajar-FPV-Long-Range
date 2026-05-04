@@ -1,6 +1,9 @@
 # Lisensi
 
-Copyright © 2025-2026 [edhotp](https://github.com/edhotp)
+Copyright © 2025-2026 **[@skyfluxfpv](https://www.instagram.com/skyfluxfpv/)**
+
+- Instagram: <https://www.instagram.com/skyfluxfpv/>
+- TikTok: <https://www.tiktok.com/@skyfluxfpv>
 
 Materi edukasi dalam repository ini dilisensikan di bawah
 **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.

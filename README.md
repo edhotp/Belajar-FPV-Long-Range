@@ -4,6 +4,8 @@
 
 > **Build → Tune → Fly.** 11 modul terstruktur + cheat sheet lapangan, berbasis teknologi FPV terkini (**ExpressLRS 4.x, DJI O4 Air Unit Pro, Walksnail Avatar HD, Li-Ion 6S2P P42A**) dan regulasi penerbangan Indonesia (**SDPPI, PM 37/2020, SIDOPI-Go**).
 
+**Dibuat oleh [@skyfluxfpv](https://www.instagram.com/skyfluxfpv/)** — [Instagram](https://www.instagram.com/skyfluxfpv/) • [TikTok](https://www.tiktok.com/@skyfluxfpv)
+
 [![Bahasa](https://img.shields.io/badge/bahasa-Indonesia-red)](learning/00-index.md)
 [![Topic](https://img.shields.io/badge/topic-FPV%20Long%20Range-blue)](learning/00-index.md)
 [![Level](https://img.shields.io/badge/level-Pemula%20%E2%86%92%20Lanjutan-green)](learning/00-index.md)
@@ -262,4 +264,10 @@ Terima kasih kepada komunitas FPV global yang telah membuka pengetahuan ini:
   <a href="learning/00-index.md">📚 Mulai Belajar</a> •
   <a href="learning/CHEAT-SHEET.md">⭐ Cheat Sheet</a> •
   <a href="OVERVIEW.md">📘 Overview Teknis</a>
+</p>
+
+<p align="center">
+  <strong>Dibuat dengan ❤️ oleh <a href="https://www.instagram.com/skyfluxfpv/">@skyfluxfpv</a></strong><br/>
+  <a href="https://www.instagram.com/skyfluxfpv/">📷 Instagram</a> •
+  <a href="https://www.tiktok.com/@skyfluxfpv">🎬 TikTok</a>
 </p>
