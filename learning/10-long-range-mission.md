@@ -1,10 +1,10 @@
-# Modul 9 — Misi Long Range
+# Modul 10 — Misi Long Range
 
 > **Tujuan modul:** menjalankan misi LR sungguhan secara aman, dari planning sampai pulang.
 
 ---
 
-## 9.1 Definisi "Long Range"
+## 10.1 Definisi "Long Range"
 
 | Kategori | Jarak (one-way) | Skill Level |
 |---|---|---|
@@ -17,7 +17,7 @@ Modul ini fokus pada **LR Standar (3–10 km)** — sweet spot yang **bisa dicap
 
 ---
 
-## 9.2 Mission Planning Workflow
+## 10.2 Mission Planning Workflow
 
 ```mermaid
 flowchart TD
@@ -35,7 +35,7 @@ flowchart TD
 
 ---
 
-## 9.3 Survei Lokasi
+## 10.3 Survei Lokasi
 
 ### Tools
 - **Google Earth Pro** — measure distance + path elevation profile.
@@ -60,7 +60,7 @@ flowchart LR
 
 ---
 
-## 9.4 Battery Budget
+## 10.4 Battery Budget
 
 ### Rumus simple
 $$
@@ -85,7 +85,7 @@ $$
 
 ---
 
-## 9.5 Pelajari Angin
+## 10.5 Pelajari Angin
 
 ```mermaid
 flowchart TD
@@ -108,7 +108,7 @@ flowchart TD
 
 ---
 
-## 9.6 Setup Antena Tracker (Untuk >5km)
+## 10.6 Setup Antena Tracker (Untuk >5km)
 
 ```mermaid
 flowchart LR
@@ -128,7 +128,7 @@ flowchart LR
 
 ---
 
-## 9.7 Briefing Observer
+## 10.7 Briefing Observer
 
 **Observer** = teman yang membantu mata kedua selama BVLOS.
 
@@ -149,7 +149,7 @@ flowchart LR
 
 ---
 
-## 9.8 In-Flight Procedure
+## 10.8 In-Flight Procedure
 
 ```mermaid
 flowchart TD
@@ -173,7 +173,7 @@ flowchart TD
 
 ---
 
-## 9.9 Common Issues & Solutions
+## 10.9 Common Issues & Solutions
 
 | Problem | Cause | Solution |
 |---|---|---|
@@ -186,7 +186,7 @@ flowchart TD
 
 ---
 
-## 9.10 Misi Sukses — Recovery & Debrief
+## 10.10 Misi Sukses — Recovery & Debrief
 
 ```mermaid
 flowchart LR
@@ -207,7 +207,7 @@ flowchart LR
 
 ---
 
-## 9.11 Naik Level: Waypoint Mission (iNav)
+## 10.11 Naik Level: Waypoint Mission (iNav)
 
 iNav mendukung **misi otomatis multi-waypoint**.
 
@@ -237,4 +237,4 @@ flowchart LR
 
 ---
 
-**Selanjutnya** ➡️ [Modul 10: Regulasi & Etika Terbang](10-regulasi-etika.md)
+**Selanjutnya** ➡️ [Modul 11: Regulasi & Etika Terbang](11-regulasi-etika.md)

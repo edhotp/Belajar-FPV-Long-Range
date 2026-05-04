@@ -83,7 +83,7 @@ Mempengaruhi trade-off **latency vs jangkauan**. Sensitivitas berbeda per band �
 | **50 Hz** | **20 ms** | **–120 dBm** | **LR standar** |
 | **25 Hz** | **40 ms** | **–123 dBm** | **Extreme LR** |
 
-> **Aturan praktis:** turun setengah packet rate = +3 dB sensitivitas = ±1.4× jangkauan. Tabel lengkap: lihat [Modul 11](11-elrs-deep-dive.md) atau <https://www.expresslrs.org/info/signal-health/>.
+> **Aturan praktis:** turun setengah packet rate = +3 dB sensitivitas = ±1.4× jangkauan. Tabel lengkap: lihat [Modul 12](12-elrs-deep-dive.md) atau <https://www.expresslrs.org/info/signal-health/>.
 
 ### Frekuensi
 | Band | Wavelength | Karakter | Catatan |

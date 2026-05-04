@@ -28,9 +28,10 @@ flowchart TD
     M5 --> M6[Modul 6<br/>Build & Setup Pertama]
     M6 --> M7[Modul 7<br/>Failsafe & GPS Rescue]
     M7 --> M8[Modul 8<br/>First Flight & Tuning]
-    M8 --> M9[Modul 9<br/>Misi Long Range]
-    M9 --> M10[Modul 10<br/>Regulasi & Etika Terbang]
-    M3 -.opsional lanjutan.-> M11[Modul 11<br/>ELRS Deep Dive]
+    M8 --> M9[Modul 9<br/>Pre-Mission Shakedown]
+    M9 --> M10[Modul 10<br/>Misi Long Range]
+    M10 --> M11[Modul 11<br/>Regulasi & Etika Terbang]
+    M3 -.opsional lanjutan.-> M12[Modul 12<br/>ELRS Deep Dive]
 
     classDef basic fill:#e1f5ff,stroke:#0288d1
     classDef build fill:#fff3e0,stroke:#f57c00
@@ -38,8 +39,8 @@ flowchart TD
     classDef deep fill:#f3e5f5,stroke:#7b1fa2
     class M1,M2,M3,M4,M5 basic
     class M6,M7 build
-    class M8,M9,M10 fly
-    class M11 deep
+    class M8,M9,M10,M11 fly
+    class M12 deep
 ```
 
 ---
@@ -56,9 +57,10 @@ flowchart TD
 | 6 | [Build & Setup Pertama](06-build-setup.md) | 2–3 jam | 🔧 Praktik |
 | 7 | [Failsafe & GPS Rescue](07-failsafe-gps-rescue.md) | 60 menit | 🔧 Praktik |
 | 8 | [First Flight & Tuning](08-first-flight-tuning.md) | 60 menit | 🚁 Praktik |
-| 9 | [Misi Long Range](09-long-range-mission.md) | 90 menit | 🚁 Praktik |
-| 10 | [Regulasi & Etika Terbang](10-regulasi-etika.md) | 30 menit | ⚖️ Wajib |
-| 11 | [ELRS Deep Dive (Glossary, Signal Health, Telemetry, Init Rate)](11-elrs-deep-dive.md) | 60 menit | 🎯 Lanjutan |
+| 9 | [Pre-Mission Shakedown & Iterative Tuning](09-pre-mission-shakedown.md) | 90 menit | 🔧 Praktik |
+| 10 | [Misi Long Range](10-long-range-mission.md) | 90 menit | 🚁 Praktik |
+| 11 | [Regulasi & Etika Terbang](11-regulasi-etika.md) | 30 menit | ⚖️ Wajib |
+| 12 | [ELRS Deep Dive (Glossary, Signal Health, Telemetry, Init Rate)](12-elrs-deep-dive.md) | 60 menit | 🎯 Lanjutan |
 | ⭐ | [**Cheat Sheet — Quick Reference LR**](CHEAT-SHEET.md) | 10 menit | 📌 Field Reference |
 
 ---
@@ -85,7 +87,7 @@ flowchart LR
 ## ⚠️ Disclaimer Keselamatan
 
 > FPV Long Range melibatkan **risiko nyata**: drone bisa jatuh menimpa orang/properti, baterai Li-Ion bisa terbakar, dan terbang BVLOS tanpa izin **melanggar hukum** di banyak yurisdiksi. Selalu:
-> - Patuhi regulasi lokal (Modul 10).
+> - Patuhi regulasi lokal (Modul 11).
 > - Jangan terbang di atas keramaian.
 > - Punya **observer** dan **failsafe** yang teruji.
 > - Tahu kapan harus **tidak terbang** (cuaca buruk, peralatan baru, area tidak dikenal).

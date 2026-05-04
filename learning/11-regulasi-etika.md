@@ -1,4 +1,4 @@
-# Modul 10 — Regulasi & Etika Terbang
+# Modul 11 — Regulasi & Etika Terbang
 
 > **Tujuan modul:** memahami regulasi dasar drone & FPV di Indonesia dan internasional, serta etika di komunitas.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 10.1 Kenapa Regulasi Penting?
+## 11.1 Kenapa Regulasi Penting?
 
 ```mermaid
 flowchart TD
@@ -23,7 +23,7 @@ flowchart TD
 
 ---
 
-## 10.2 Regulasi Indonesia
+## 11.2 Regulasi Indonesia
 
 ### Peraturan Utama
 
@@ -72,7 +72,7 @@ flowchart TD
 
 ---
 
-## 10.3 Regulasi Eropa (EASA)
+## 11.3 Regulasi Eropa (EASA)
 
 ```mermaid
 flowchart TD
@@ -98,7 +98,7 @@ flowchart TD
 
 ---
 
-## 10.4 Regulasi USA (FAA)
+## 11.4 Regulasi USA (FAA)
 
 ```mermaid
 flowchart TD
@@ -121,7 +121,7 @@ flowchart TD
 
 ---
 
-## 10.5 Regulasi Negara Lain (Singkat)
+## 11.5 Regulasi Negara Lain (Singkat)
 
 | Negara | Highlight |
 |---|---|
@@ -133,7 +133,7 @@ flowchart TD
 
 ---
 
-## 10.6 Etika & Common Sense
+## 11.6 Etika & Common Sense
 
 ```mermaid
 flowchart TD
@@ -155,7 +155,7 @@ flowchart TD
 
 ---
 
-## 10.7 Asuransi & Liability
+## 11.7 Asuransi & Liability
 
 > Drone bisa menyebabkan kerugian besar. Pertimbangkan asuransi:
 - **Pribadi**: cek apakah asuransi rumah cover hobby aviation.
@@ -164,7 +164,7 @@ flowchart TD
 
 ---
 
-## 10.8 Saat Otoritas Menanyakan
+## 11.8 Saat Otoritas Menanyakan
 
 ```mermaid
 flowchart LR
@@ -179,7 +179,7 @@ flowchart LR
 
 ---
 
-## 10.9 Komunitas FPV Indonesia
+## 11.9 Komunitas FPV Indonesia
 
 - **Indonesia FPV Racing Association (IFRA)** — komunitas racing.
 - **Throttle Warrior** — komunitas FPV Indonesia (racing, freestyle, long range), aktif di IG & event lokal.
@@ -204,7 +204,7 @@ Harga di seri ini ditulis dalam **USD** (referensi global). Realitas Indonesia:
 
 ---
 
-## 10.10 Resource & Update Regulasi
+## 11.10 Resource & Update Regulasi
 
 | Sumber | URL |
 |---|---|

@@ -51,8 +51,8 @@ flowchart LR
     Start([Mulai di Sini]) --> M1[Modul 1-5<br/>📚 Foundation<br/>komponen, radio, video, battery]
     M1 --> M2[Modul 6-7<br/>🛠️ Build & Setup<br/>solder, BF/iNav, failsafe]
     M2 --> M3[Modul 8-9<br/>🚁 Fly<br/>tuning, misi LR]
-    M3 --> M4[Modul 10<br/>⚖️ Regulasi<br/>SDPPI & etika]
-    M4 --> Bonus[Modul 11<br/>🎯 ELRS Deep Dive<br/>opsional lanjutan]
+    M3 --> M4[Modul 11<br/>⚖️ Regulasi<br/>SDPPI & etika]
+    M4 --> Bonus[Modul 12<br/>🎯 ELRS Deep Dive<br/>opsional lanjutan]
     Bonus --> CS[⭐ Cheat Sheet<br/>field reference]
 
     classDef start fill:#1976d2,color:#fff,stroke:#0d47a1
@@ -85,9 +85,10 @@ flowchart LR
 | 6 | [Build & Setup Pertama](learning/06-build-setup.md) | 2–3 jam | 🔧 Praktik |
 | 7 | [Failsafe & GPS Rescue](learning/07-failsafe-gps-rescue.md) | 60 menit | 🔧 Praktik |
 | 8 | [First Flight & Tuning](learning/08-first-flight-tuning.md) | 60 menit | 🚁 Praktik |
-| 9 | [Misi Long Range](learning/09-long-range-mission.md) | 90 menit | 🚁 Praktik |
-| 10 | [Regulasi & Etika Terbang Indonesia](learning/10-regulasi-etika.md) | 30 menit | ⚖️ Wajib |
-| 11 | [ELRS Deep Dive (Glossary, Signal, Telemetry)](learning/11-elrs-deep-dive.md) | 60 menit | 🎯 Lanjutan |
+| 9 | [Pre-Mission Shakedown & Iterative Tuning](learning/09-pre-mission-shakedown.md) | 90 menit | 🔧 Praktik |
+| 10 | [Misi Long Range](learning/10-long-range-mission.md) | 90 menit | 🚁 Praktik |
+| 11 | [Regulasi & Etika Terbang Indonesia](learning/11-regulasi-etika.md) | 30 menit | ⚖️ Wajib |
+| 12 | [ELRS Deep Dive (Glossary, Signal, Telemetry)](learning/12-elrs-deep-dive.md) | 60 menit | 🎯 Lanjutan |
 | ⭐ | [**Cheat Sheet — Field Reference**](learning/CHEAT-SHEET.md) | 10 menit | 📌 Lapangan |
 
 **Total estimasi belajar:** ~12 jam membaca + 2-3 jam praktik build.

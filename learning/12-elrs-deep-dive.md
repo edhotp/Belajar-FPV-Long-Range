@@ -1,4 +1,4 @@
-# Modul 11 — ELRS Deep Dive (Glossary, Signal Health, Telemetry, Init Rate, Long Range, Advanced)
+# Modul 12 — ELRS Deep Dive (Glossary, Signal Health, Telemetry, Init Rate, Long Range, Advanced)
 
 > **Tujuan modul:** memahami konsep teknis ELRS yang sering bikin pemula bingung — istilah, RSSI/LQ/SNR, telemetry bandwidth, Init Rate, kompetisi long range, dan info debugging.
 >
@@ -6,7 +6,7 @@
 
 ---
 
-## 11.1 Glossary — Istilah Wajib Hafal
+## 12.1 Glossary — Istilah Wajib Hafal
 
 ELRS punya banyak singkatan. Ini daftar yang paling sering kamu lihat:
 
@@ -43,7 +43,7 @@ flowchart LR
 
 ---
 
-## 11.2 Signal Health — Memahami RSSI vs LQ vs SNR
+## 12.2 Signal Health — Memahami RSSI vs LQ vs SNR
 
 ### Analogi Percakapan di Ruangan
 
@@ -146,7 +146,7 @@ Contoh yang sering dikutip ELRS: **40+ km @ 250 Hz @ 100 mW** dengan antena omni
 
 ---
 
-## 11.3 Telemetry Bandwidth — Berapa Data yang Bisa Pulang?
+## 12.3 Telemetry Bandwidth — Berapa Data yang Bisa Pulang?
 
 **Telemetry** = data dari drone balik ke radio TX (GPS, voltase, RSSI, dll).
 
@@ -203,7 +203,7 @@ ELRS pakai **burst** = kirim beberapa telemetry packet berurutan supaya throughp
 
 ---
 
-## 11.4 Init Rate — Kenapa RX Lambat Connect?
+## 12.4 Init Rate — Kenapa RX Lambat Connect?
 
 ### Apa Itu?
 
@@ -241,7 +241,7 @@ Kalau pakai versi lama:
 
 ---
 
-## 11.5 Long Range Competition — Belajar dari Record Holder
+## 12.5 Long Range Competition — Belajar dari Record Holder
 
 ELRS punya **leaderboard resmi** di <https://www.expresslrs.org/info/long-range/>. Ini contoh entry untuk inspirasi:
 
@@ -283,7 +283,7 @@ Kalau kamu mau submit:
 
 ---
 
-## 11.6 Advanced Technical Info — Debugging
+## 12.6 Advanced Technical Info — Debugging
 
 ### Lua Status Codes (untuk Troubleshooting)
 
@@ -327,7 +327,7 @@ Kalau kamu compile ELRS dari source, ada flag debug:
 
 ---
 
-## 11.7 Setting Praktis untuk Pemula LR (Cheat Sheet)
+## 12.7 Setting Praktis untuk Pemula LR (Cheat Sheet)
 
 ```mermaid
 flowchart TD
@@ -353,7 +353,7 @@ flowchart TD
 
 ---
 
-## 11.8 Mitos vs Fakta ELRS
+## 12.8 Mitos vs Fakta ELRS
 
 | Mitos | Fakta |
 |---|---|
@@ -379,4 +379,4 @@ flowchart TD
 
 ---
 
-⬅️ Kembali ke [Index Learning Series](00-index.md) | Sebelumnya: [Modul 10: Regulasi & Etika](10-regulasi-etika.md)
+⬅️ Kembali ke [Index Learning Series](00-index.md) | Sebelumnya: [Modul 11: Regulasi & Etika](11-regulasi-etika.md)

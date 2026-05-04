@@ -225,4 +225,4 @@ flowchart LR
 
 ---
 
-**Selanjutnya** ➡️ [Modul 9: Misi Long Range](09-long-range-mission.md)
+**Selanjutnya** ➡️ [Modul 9: Pre-Mission Shakedown & Iterative Tuning](09-pre-mission-shakedown.md)
