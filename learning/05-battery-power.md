@@ -143,6 +143,8 @@ flowchart TD
 - **HOTA D6 Pro / D6+** (650W dual port).
 - **ToolkitRC M6D / M8** (mid-range, dual port).
 
+> ⚠️ **Disclaimer rekomendasi:** charger di atas dipilih berdasarkan reputasi komunitas & review independen per **2026**, **bukan endorsement berbayar**. Pastikan **power supply (PSU)** yang kamu pakai sanggup memenuhi watt charger (mis. Q8 Max 1000W butuh PSU 24V/40A+). Jangan pakai charger murah tanpa proteksi balance — risiko **kebakaran Li-Ion sangat nyata**.
+
 ### Mode charging
 ```mermaid
 flowchart LR

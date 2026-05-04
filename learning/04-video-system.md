@@ -190,6 +190,8 @@ flowchart TD
 - **Hybrid (mau analog + HD module):** Skyzone Cobra X V4.
 - **Analog purist:** Skyzone 04X atau Orqa FPV.One.
 
+> ⚠️ **Disclaimer rekomendasi:** pilihan goggles di atas adalah opini berdasarkan kebiasaan komunitas & review publik per **2026**, **bukan endorsement berbayar**. Kenyamanan goggles **sangat personal** (IPD, jarak mata, bentuk wajah) — kalau memungkinkan, **coba langsung** atau pinjam dulu sebelum beli. Pastikan juga goggles cocok dengan ekosistem VTX yang kamu pakai (DJI O3/O4, Walksnail, HDZero, analog).
+
 ---
 
 ## 4.8 Antena Video LR

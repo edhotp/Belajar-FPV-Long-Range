@@ -158,6 +158,8 @@ flowchart LR
 
 > Bisa ditekan jadi ~$700 kalau ganti ke goggles analog (mis. Skyzone Cobra X V4 ~$300) + radio entry-level. Tapi untuk LR, **investasi di goggles & radio adalah yang paling worth-it** — keduanya bertahan bertahun-tahun.
 
+> ⚠️ **Disclaimer rekomendasi:** harga dan produk yang disebut adalah perkiraan per **2026** berdasarkan pengalaman penulis & komunitas, **bukan endorsement berbayar**. Harga, stok, dan revisi hardware berubah cepat — selalu cross-check ke toko terpercaya, review independen (Joshua Bardwell, Oscar Liang), dan diskusi komunitas sebelum beli. Sesuaikan dengan **regulasi frekuensi & impor** di negaramu.
+
 ---
 
 ## 🔗 Referensi & Bacaan Lanjut

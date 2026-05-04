@@ -54,6 +54,8 @@ flowchart TD
 | LR serius | **ELRS Dual Band** (RadioMaster Bandit Dual Band + BetaFPV SuperD RX) |
 | Profesional, ekosistem matang | **TBS Crossfire 868/915 MHz** |
 
+> ⚠️ **Disclaimer rekomendasi:** brand & model di atas dipilih berdasarkan adopsi komunitas per **2026**, **bukan endorsement berbayar**. Pastikan band yang kamu pilih (2.4 GHz / 868 / 915 MHz) **legal di negaramu** — pakai band yang salah bisa kena pidana. Cek revisi firmware & hardware terbaru di [expresslrs.org](https://www.expresslrs.org/) sebelum beli.
+
 ---
 
 ## 3.3 ExpressLRS Deep Dive
