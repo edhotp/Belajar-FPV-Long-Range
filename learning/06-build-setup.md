@@ -4,9 +4,9 @@
 
 ---
 
-## 6.1 Shopping List Lengkap (Build 7" LR HD)
+## 6.1 Contoh Shopping List (Build 7" LR HD)
 
-| Komponen | Rekomendasi 2026 | Estimasi (USD) |
+| Komponen | Contoh Komponen | Estimasi (USD) |
 |---|---|---|
 | Frame 7" | iFlight Chimera7 Pro V2 / GepRC Mark5 LR | $80 |
 | FC + ESC AIO | SpeedyBee F405 V4 50A AIO | $90 |
@@ -22,7 +22,7 @@
 | **Total drone-side** | | **±$655** |
 
 ### Ground side (sekali beli, pakai bertahun)
-| Item | Rekomendasi | USD |
+| Item | Contoh | Estimasi (USD) |
 |---|---|---|
 | Radio TX | RadioMaster Boxer ELRS Dual Band | $200 |
 | Goggles | DJI Goggles 3 / N3 | $300–500 |
