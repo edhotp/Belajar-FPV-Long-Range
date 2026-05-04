@@ -148,7 +148,6 @@ flowchart LR
 |---|---|
 | Radio TX (RadioMaster Boxer ELRS) | $130 |
 | Goggles HD (DJI Goggles 3) | $500 |
-| Goggles Analog (Skyzone Cobra X V4) | $300 |
 | Frame + Motor + ESC + FC (7" kit) | $250–350 |
 | VTX HD (DJI O4 Air Unit Pro) | $230 |
 | RX ELRS Dual Band | $40 |
@@ -157,7 +156,7 @@ flowchart LR
 | Charger + power supply | $150 |
 | **Total starter HD LR** | **±$1,400** |
 
-> Bisa ditekan jadi ~$700 kalau pakai analog + radio entry-level. Tapi untuk LR, **investasi di goggles & radio adalah yang paling worth-it** — keduanya bertahan bertahun-tahun.
+> Bisa ditekan jadi ~$700 kalau ganti ke goggles analog (mis. Skyzone Cobra X V4 ~$300) + radio entry-level. Tapi untuk LR, **investasi di goggles & radio adalah yang paling worth-it** — keduanya bertahan bertahun-tahun.
 
 ---
 
