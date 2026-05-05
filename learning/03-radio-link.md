@@ -144,10 +144,17 @@ flowchart LR
 ```
 
 ### Hardware populer
-- **Radio TX:** RadioMaster Pocket / Boxer / TX16S **dengan dua modul** (mis. internal 2.4 GHz + external 900 MHz Bandit Micro / Happymodel ES900TX), atau radio yang **siap 900 MHz** seperti RadioMaster Bandit Micro (TX module standalone).
-- **RX dual-band 2.4 + 900 (true dual band):** **BetaFPV SuperD** (paling populer per 2026) — satu RX yang dengar 2.4 + 900 simultan.
+- **Radio TX dual-band (satu modul, dua band sekaligus):** **RadioMaster Nomad** (modul JR-bay, 1W, 2.4 GHz + 868/900/915 MHz simultan).
+- **Radio TX alternatif:** RadioMaster Pocket / Boxer / TX16S **dengan dua modul** (mis. internal 2.4 GHz + external 900 MHz Bandit Micro / Happymodel ES900TX).
+- **RX dual-band 2.4 + 900 (true dual band):**
+    - **BetaFPV SuperD** — paling populer per 2026, satu RX dengar 2.4 + 900 simultan.
+    - **RadioMaster DBR4** ("Xross Gemini") — dual-band dual-channel, dirancang berpasangan dengan modul Nomad. **Secara konsep sama dengan Dual Band** — RadioMaster menyebutnya "Xross Gemini" karena memperluas ide Gemini (dua radio simultan) ke dua band berbeda.
 
-> 💡 **Catatan klarifikasi:** sampai 2026, RX yang benar-benar **dual band 2.4 + 900 simultan dalam satu modul** masih sangat sedikit — BetaFPV SuperD adalah yang paling matang. RX seperti **RadioMaster RP4TD** itu **2.4 GHz Gemini true-diversity** (dua radio 2.4 GHz dalam satu modul, untuk fitur Gemini), **bukan dual band 2.4+900**. Modul TX seperti **Happymodel ES24TX** adalah **transmitter** (TX), bukan RX. Pastikan kamu beli sesuai fungsi.
+> 💡 **Catatan klarifikasi:** sampai 2026, RX yang benar-benar **dual band 2.4 + 900 simultan dalam satu modul** masih sangat sedikit — yang paling matang adalah **BetaFPV SuperD** dan **RadioMaster DBR4**. Hati-hati dengan istilah:
+> - **"Gemini" murni** (mis. **RadioMaster RP4TD**) = dua radio sama-sama 2.4 GHz, untuk diversity di band yang sama.
+> - **"Xross Gemini" / "Cross-Band Gemini" / "Dual Band"** (mis. DBR4, SuperD) = dua radio di **dua band berbeda** (2.4 + 900) — inilah yang dibahas di section ini.
+>
+> Modul TX seperti **Happymodel ES24TX** adalah **transmitter** (TX), bukan RX. Pastikan kamu beli sesuai fungsi.
 
 ### Kapan pakai?
 - Terbang LR di area campur urban + alam (gedung lalu hutan).
