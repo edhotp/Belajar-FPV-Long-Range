@@ -190,7 +190,7 @@ flowchart TD
 
 ---
 
-## 3.7 Telemetry: Mata di Punggung Pilot
+## 3.7 Telemetry: "Mata di Punggung Pilot"
 
 Telemetry = data balik dari drone ke radio TX.
 
