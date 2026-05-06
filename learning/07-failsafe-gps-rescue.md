@@ -63,6 +63,8 @@ Dengan setting ini, selama 1–1.5s guard time drone akan **hover level** (bukan
 
 > Contoh CLI: `set failsafe_throttle = 1500` (Landing mode), atau via Configurator set per-channel di Channel Fallback Settings.
 
+> 🙏 **Kredit:** masukan Stage 1 channel fallback (Angle mode + throttle ~50%) untuk mencegah kekosongan antara Stage 1 dan Stage 2 — dari **Iril**, penggiat FPV.
+
 ### Stage 2 — Procedure (after stage 1 timeout, 3–10s)
 - **Drop** (motor mati permanent — JANGAN untuk LR!).
 - **Land** (descend pelan).
@@ -190,6 +192,8 @@ flowchart TD
 
 > **Catatan:** Saat pakai FAILSAFE switch, **balikkan switch ke OFF mengembalikan kontrol seketika** selama masih di Stage 1. Kalau sudah keburu masuk Stage 2 GPS Rescue, kamu harus tunggu `failsafe_recovery_delay` + **wiggle stick > 30°** untuk regain control.
 
+> 🙏 **Kredit:** workflow "FAILSAFE switch dulu, baru GPS Rescue switch" — supaya quad benar-benar mempraktikkan simulasi rxloss penuh sebelum diandalkan untuk on-demand RTH — dari masukan **Iril**, penggiat FPV.
+
 ---
 
 ## 7.6 Voltage Failsafe
@@ -277,10 +281,17 @@ Ketika drone failsafe / disarmed di posisi unknown, beeper akan bunyi:
 
 ## 🔗 Referensi
 
-- Betaflight GPS Rescue Docs — <https://betaflight.com/docs/wiki/configurator/failsafe-tab>
+- Betaflight Failsafe Wiki — <https://betaflight.com/docs/wiki/guides/current/Failsafe>
+- Betaflight GPS Rescue Wiki — <https://betaflight.com/docs/wiki/guides/current/GPS-Rescue>
 - iNav Navigation — <https://github.com/iNavFlight/inav/wiki/Navigation-modes>
 - Joshua Bardwell — *GPS Rescue Setup* (YouTube).
 - Painless360 — *Failsafe Done Right* (YouTube).
+
+### 🙏 Acknowledgement
+
+Terima kasih kepada **Iril** (penggiat FPV) atas masukan praktis yang memperkaya modul ini:
+- Penekanan **Stage 1 channel fallback** (Angle mode + hover throttle) untuk mencegah quad terjun selama guard time sebelum GPS Rescue aktif.
+- Workflow testing **FAILSAFE switch (STAGE1) dulu, baru GPS Rescue switch (STAGE2)** — karena di mode failsafe quad benar-benar mempraktikkan simulasi rxloss, sedangkan mode GPS Rescue hanya mengeksekusi prosedur RTH-nya.
 
 ---
 
