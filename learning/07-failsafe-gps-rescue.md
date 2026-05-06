@@ -41,7 +41,27 @@ stateDiagram-v2
 - **Land** (level + slow descend), atau
 - **Hold** (lanjut dengan stick netral).
 
-Default Betaflight: **Drop** setelah 1 detik link timeout.
+Default Betaflight: **Drop** setelah 1 detik link timeout (1.5s di BF 4.5+).
+
+#### ⚠️ Stage 1 Channel Fallback — WAJIB di-set kalau pakai GPS Rescue
+
+By default, Stage 1 langsung **cut throttle ke 0** + center sticks. Akibatnya:
+- Drone **mulai jatuh** selama guard time (1–1.5 detik) sebelum Stage 2 (GPS Rescue) sempat aktif.
+- Bisa berujung **crash di Stage 1** sebelum Rescue jalan — terutama kalau terbang rendah.
+
+Betaflight sendiri tegaskan: *"It is essential to do this when GPS Rescue is enabled for Stage 2 Failsafe, or the quad may crash in Stage 1 before the Rescue has time to start."*
+
+**Rekomendasi setting Stage 1 (tab Failsafe → Channel Fallback Settings, atau CLI `rxfail`):**
+
+| Channel | Mode | Value | Tujuan |
+|---|---|---|---|
+| Throttle | `Set` | ~1500 (50%) | Hover throttle, drone tidak terjun |
+| Roll / Pitch / Yaw | `Auto` (center) | — | Stick netral |
+| AUX (mode switch) | `Set` | Posisi **Angle / Horizon** | Drone otomatis self-level |
+
+Dengan setting ini, selama 1–1.5s guard time drone akan **hover level** (bukan jatuh), lalu mulus pindah ke GPS Rescue di Stage 2. Tidak ada "kekosongan" antara Stage 1 dan Stage 2.
+
+> Contoh CLI: `set failsafe_throttle = 1500` (Landing mode), atau via Configurator set per-channel di Channel Fallback Settings.
 
 ### Stage 2 — Procedure (after stage 1 timeout, 3–10s)
 - **Drop** (motor mati permanent — JANGAN untuk LR!).
@@ -137,6 +157,38 @@ flowchart TD
 ```
 
 > **Jangan asumsi failsafe bekerja!** **Test fisik di lapangan terbuka, low altitude, area aman**, sebelum misi sungguhan.
+
+### 7.5.1 Urutan test setelah build baru — pakai FAILSAFE switch dulu, baru GPS Rescue switch
+
+Betaflight punya 2 mode switch berbeda di tab **Modes**:
+
+| Switch Mode | CLI (`failsafe_switch_mode`) | Perilaku saat switch ON |
+|---|---|---|
+| **FAILSAFE** | `STAGE1` | Simulasi link loss penuh: Stage 1 (guard time) → otomatis Stage 2 (GPS Rescue / Drop / Land sesuai config). **Mirip rxloss beneran.** |
+| **GPS RESCUE** | `STAGE2` | Langsung loncat ke prosedur Stage 2 (RTH), **skip Stage 1**. |
+| **FAILSAFE** | `KILL` | Disarm instan — **jangan dipakai untuk LR**. |
+
+**Rekomendasi urutan untuk maiden setelah build baru / config baru:**
+
+```mermaid
+flowchart TD
+    Build[Build / Config baru] --> A[1. Bench test - prop OFF<br/>matikan TX]
+    A --> B[2. Field test pakai FAILSAFE switch<br/>failsafe_switch_mode=STAGE1]
+    B --> C{Quad behave penuh?<br/>Stage1 hover lalu Stage2 RTH lalu landing OK?}
+    C -->|GAGAL| Fix[Fix config: channel fallback,<br/>GPS Rescue param, mag calib]
+    Fix --> A
+    C -->|OK| D[3. Field test pakai TX OFF beneran<br/>simulasi rxloss murni]
+    D --> E{OK?}
+    E -->|OK| F[4. Aktifkan GPS RESCUE switch<br/>failsafe_switch_mode=STAGE2<br/>untuk on-demand RTH / panic button]
+    E -->|GAGAL| Fix
+```
+
+**Kenapa harus FAILSAFE switch dulu, bukan GPS Rescue switch?**
+- **FAILSAFE (STAGE1)** memaksa drone menjalankan **seluruh prosedur** dari awal: Signal Validation → Stage 1 Guard → Stage 2 (GPS Rescue). Inilah yang akan terjadi saat rxloss sungguhan. Kalau tahap ini OK, kamu yakin **konfigurasi failsafe end-to-end valid** termasuk channel fallback Stage 1.
+- **GPS RESCUE (STAGE2)** hanya menguji prosedur RTH-nya saja — **skip simulasi rxloss & Stage 1**. Kalau channel fallback Stage 1 salah, kamu **tidak akan tahu** sampai rxloss beneran terjadi di lapangan.
+- Setelah keduanya OK, baru aman pakai GPS RESCUE switch sebagai **panic button on-demand** (misalnya saat lost orientation di goggles).
+
+> **Catatan:** Saat pakai FAILSAFE switch, **balikkan switch ke OFF mengembalikan kontrol seketika** selama masih di Stage 1. Kalau sudah keburu masuk Stage 2 GPS Rescue, kamu harus tunggu `failsafe_recovery_delay` + **wiggle stick > 30°** untuk regain control.
 
 ---
 

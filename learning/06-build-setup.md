@@ -232,10 +232,19 @@ flowchart TD
 ```
 
 ### Test failsafe (PENTING)
-1. Arm drone (di bench, prop OFF, dipegang).
-2. **Matikan radio TX**.
-3. Pastikan motor **stop dalam 1–2 detik** (failsafe stage 1).
-4. Untuk LR: aktifkan **GPS Rescue** dan test simulasi (drone dipegang outdoor, GPS lock, switch ke GPS Rescue mode → motor harus mengarahkan ke home).
+
+**Bench test (prop OFF, drone dipegang):**
+1. Arm drone.
+2. **Matikan radio TX** (atau disable Tx module \u2014 cara paling cepat & recommended Betaflight).
+3. Pastikan motor merespons sesuai **Stage 1 channel fallback** (idle / hover throttle), lalu masuk **Stage 2** (Drop / GPS Rescue) sesuai config.
+4. Konfirmasi `RXLOSS` muncul di OSD selama link mati, dan `!FS!` muncul saat masuk Stage 2.
+
+**Field test untuk LR \u2014 urutan yang benar (lihat detail di [Modul 7.5](07-failsafe-gps-rescue.md)):**
+1. **Pertama: pakai switch dengan mode FAILSAFE** (CLI `failsafe_switch_mode = STAGE1`). Switch ini memaksa drone menjalankan **simulasi rxloss penuh** \u2014 Stage 1 guard time \u2192 Stage 2 GPS Rescue \u2192 landing. Inilah yang akan terjadi saat link beneran putus.
+2. Setelah quad **kembali ke home dengan sempurna**, baru test dengan **TX OFF beneran** (rxloss murni) untuk validasi akhir.
+3. Kalau dua di atas OK, baru aman bind switch terpisah ke **GPS RESCUE mode** (`failsafe_switch_mode = STAGE2`) sebagai **panic button on-demand** (skip Stage 1, langsung RTH).
+
+> **Kenapa urutan ini?** Switch GPS Rescue (STAGE2) **skip Stage 1**, jadi tidak menguji apakah Stage 1 channel fallback (throttle hover, Angle mode) sudah benar. Switch FAILSAFE (STAGE1) menguji **end-to-end** \u2014 ini yang harus PASS dulu sebelum percaya failsafe untuk misi LR.
 
 ---
 
